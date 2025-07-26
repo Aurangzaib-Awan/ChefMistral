@@ -105,11 +105,11 @@ margin-bottom: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 .recipe-heading{
-    margin: 25px 60px 25px;
+    margin: 0px 60px 25px;
 
 }
 .suggested-recipe-container{
-    margin: 25px 60px 25px;
+    margin: 5px 60px 25px;
 }
 
 @media (max-width: 900px) {

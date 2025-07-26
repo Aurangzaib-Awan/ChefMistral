@@ -1,12 +1,40 @@
-# React + Vite
+# 👨‍🍳 ChefMistral
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ChefMistral** is an AI-powered recipe suggestion app. Just enter the ingredients you have, and it will suggest a recipe using Mistral (via Hugging Face) — even with limited items.
 
-Currently, two official plugins are available:
+Live site: [https://chef-mistral-tawny.vercel.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧠 Uses **Mistral-8x7B** LLM from Hugging Face
+- 🍳 Suggests a recipe based on user-provided ingredients
+- 📝 AI responds in clean markdown (easy to read)
+- ⚡ Built with **React + Vite**
+- ☁️ Fully deployed on **Vercel**
+
+---
+
+## 📸 Demo
+
+<img width="1612" height="829" alt="image" src="https://github.com/user-attachments/assets/1822e970-24e8-4471-bb6c-0838af24d3d3" />
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React + Vite
+- **LLM API**: Hugging Face Inference (Mistral model)
+- **Styling**: Vanilla CSS
+- **Deployment**: Vercel
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/Aurangzaib-Awan/ChefMistral.git
+cd ChefMistral
